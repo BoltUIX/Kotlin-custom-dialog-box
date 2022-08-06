@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MaterialUIX" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+
+        <!--Space between each character-->
+        <item name="android:letterSpacing">.1</item>
+
+        <!--Change overall font family -->
+        <item name="fontFamily">@font/jost_medium</item>
+        <item name="android:fontFamily">@font/jost_medium</item>
+    </style>
+
+    <style name="Theme.MaterialUIX" parent="Base.Theme.MaterialUIX" />
+</resources>
